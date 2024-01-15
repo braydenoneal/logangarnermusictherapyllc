@@ -1,0 +1,67 @@
+div.image.wide {
+    width: auto;
+    height: 512px;
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 32px;
+}
+
+div.centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 48px;
+    border-radius: 16px;
+    background-color: #004aadcc;
+    box-shadow: -0 0 16px #00000055;
+    max-width: 1024px;
+    flex-wrap: wrap;
+
+    .title {
+        font-size: 48px;
+    }
+
+    .paragraph {
+        font-size: 16pt;
+    }
+}
+
+div.mission {
+    display: flex;
+    max-width: 1024px;
+    align-items: center;
+    gap: 32px;
+}
+
+div.mission img.logo {
+    width: 256px;
+    height: 256px;
+}
+
+@media only screen
+and (max-width: 600px) {
+    div.mission {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    div.image.wide {
+        height: min-content;
+    }
+
+    div.centered div.title {
+        font-size: 24pt ;
+    }
+
+    div.centered div.paragraph {
+        font-size: 12pt;
+    }
+}

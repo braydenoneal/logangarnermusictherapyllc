@@ -1,0 +1,31 @@
+div.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #004aad44;
+    padding: 64px 128px;
+    margin-top: 32px;
+    gap: 16px;
+}
+
+div.footer div.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+div.footer div.info {
+    font-weight: 600;
+}
+
+a.email_link, a.email_link:visited {
+    color: #004aad;
+}
+
+@media only screen
+and (max-width: 600px) {
+    div.footer {
+        padding: 32px;
+    }
+}

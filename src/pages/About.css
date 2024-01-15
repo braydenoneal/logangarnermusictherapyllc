@@ -1,0 +1,36 @@
+div.photo_section {
+    display: flex;
+    max-width: 1024px;
+    gap: 32px;
+    padding-top: 32px;
+}
+
+div.photo_section img {
+    height: 256px;
+    width: 386px;
+}
+
+div.photo_section .image_container {
+    background-color: #777777;
+    height: 256px;
+    width: 386px;
+}
+
+div.subtitle {
+    margin-bottom: 16px;
+    font-size: 16pt;
+}
+
+div.photo_section div.section {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen
+and (max-width: 600px) {
+    div.photo_section {
+        flex-wrap: wrap;
+        gap: 0;
+    }
+}
