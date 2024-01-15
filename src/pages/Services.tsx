@@ -1,17 +1,17 @@
 import React from 'react'
 import '../App.css'
 import './Services.css'
-import ContactForm from "../components/ContactForm";
+import ContactForm from '../components/ContactForm';
 
 function Services() {
     return (
         <div className='container services'>
-            <div className="content">
+            <div className='content'>
                 <div className='section'>
                     <div className='paragraph'>Consulting for group or individualized music therapy services:</div>
-                    <div className="info">
-                        <div className="paragraph email">Email: <a className="email_link" href="mailto: logarnermt@gmail.com">logarnermt@gmail.com</a></div>
-                        <div className="paragraph phone">Phone: 573-220-3406</div>
+                    <div className='info'>
+                        <div className='paragraph email'>Email: <a className='email_link' href='mailto: logarnermt@gmail.com'>logarnermt@gmail.com</a></div>
+                        <div className='paragraph phone'>Phone: 573-220-3406</div>
                         <div className='paragraph' style={{fontWeight: '600'}}>Spring 2024 Groups at Compass Inc.</div>
                         <div className='paragraph'>1107 University Ave</div>
                         <div className='paragraph'>Columbia, MO 65203</div>

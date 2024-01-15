@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css'
 import './Home.css'
-import ContactForm from "../components/ContactForm";
+import ContactForm from '../components/ContactForm';
 
 function Home() {
     return (
@@ -15,7 +15,7 @@ function Home() {
                 </div>
             </div>
             <div className='container'>
-                <div className="mission">
+                <div className='mission'>
                     <img className='logo' src='images/icon/logo500.png' alt='Logo'/>
                     <div className='section'>
                         <div className='title'>Our Mission</div>
