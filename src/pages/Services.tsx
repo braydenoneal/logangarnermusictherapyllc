@@ -18,16 +18,25 @@ function Services() {
                     <div className='paragraph'>Columbia, MO 65203</div>
                 </div>
                 <div className='section'>
-                    <div className='title'>Melody Makers for neurodiverse and neurotypical toddlers</div>
-                    <div className='paragraph'>This group will aim to improve social skills, encourage cooperative play, and promote inclusivity of neurodiversity. Evidence-based music interventions will be utilized to create positive music experiences for the toddlers and parents.</div>
+                    <div className='title'>Melody Makers</div>
+                    <div className='paragraph' style={{ fontSize: '16pt' }}>For neurodiverse and neurotypical toddlers</div>
+                    <div className='paragraph'>This group will aim to improve social skills, encourage cooperative play,
+                        and promote inclusivity of neurodiversity. Evidence-based music interventions will be utilized
+                        to create positive music experiences for the toddlers and parents.
+                    </div>
                 </div>
                 <div className='section'>
-                    <div className='title'>Rhythmic Resilience for individuals with Parkinson’s disease</div>
+                    <div className='title'>Rhythmic Resilience</div>
+                    <div className='paragraph' style={{fontSize: '16pt'}}>For individuals with Parkinson’s disease</div>
                     <div className='paragraph'>This group will aim to improve the motor/cognitive functions of people with Parkinson’s disease. Using evidenced-based therapeutic drumming and music interventions, participants will develop cognitive and motor skills to combat the impact and degenerative symptoms of Parkinson’s disease.</div>
                 </div>
                 <div className='section'>
-                    <div className='title'>SoulBeat for teenage males</div>
-                    <div className='paragraph'>This group will aim to increase the coping and emotional regulation skills as well as improve mood for teen males. Using evidence-based psychoeducational techniques within therapeutic drumming, participants will develop a sense of holistic wellness.</div>
+                    <div className='title'>SoulBeat</div>
+                    <div className='paragraph' style={{ fontSize: '16pt' }}>For teenage males</div>
+                    <div className='paragraph'>This group will aim to increase the coping and emotional regulation
+                        skills as well as improve mood for teen males. Using evidence-based psychoeducational techniques
+                        within therapeutic drumming, participants will develop a sense of holistic wellness.
+                    </div>
                 </div>
                 <SignUpForm/>
             </div>
