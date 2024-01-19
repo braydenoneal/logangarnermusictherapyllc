@@ -8,12 +8,12 @@ function Services() {
         <div className='container services'>
             <div className='content'>
                 <div className='section'>
-                    <div className='title'>Consulting for group or individualized music therapy services:</div>
+                    <div className='title' style={{fontSize: '16pt'}}>Consulting for group or individualized music therapy services</div>
                     <div className='paragraph email'>Email: <a className='email_link' href='mailto: logarnermt@gmail.com'>logarnermt@gmail.com</a></div>
                     <div className='paragraph phone'>Phone: 573-220-3406</div>
                 </div>
                 <div className='section'>
-                    <div className='title'>Spring 2024 Groups at Compass Inc.</div>
+                    <div className='title' style={{fontSize: '16pt'}}>Spring 2024 Groups at Compass Inc.</div>
                     <div className='paragraph'>1107 University Ave</div>
                     <div className='paragraph'>Columbia, MO 65203</div>
                 </div>
