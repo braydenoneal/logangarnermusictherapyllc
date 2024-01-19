@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css'
 import './Services.css'
-import ContactForm from '../components/ContactForm';
+import SignUpForm from '../components/SignUpForm';
 
 function Services() {
     return (
@@ -29,7 +29,7 @@ function Services() {
                     <div className='title'>SoulBeat for teenage males</div>
                     <div className='paragraph'>This group will aim to increase the coping and emotional regulation skills as well as improve mood for teen males. Using evidence-based psychoeducational techniques within therapeutic drumming, participants will develop a sense of holistic wellness.</div>
                 </div>
-                <ContactForm/>
+                <SignUpForm/>
             </div>
         </div>
     )
