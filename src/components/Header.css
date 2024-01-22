@@ -11,13 +11,13 @@ div.header {
 and (max-width: 600px) {
     div.header {
         justify-content: center;
-        padding: 0 16px;
     }
 
     div.header div.title {
         display: flex;
         justify-content: center;
-        height: 64px;
+        height: 48px;
+        font-size: 16pt;
     }
 
     div.header img.logo {
@@ -38,7 +38,7 @@ div.header img.logo {
 div.link {
     display: flex;
     align-items: stretch;
-    height: 80px;
+    height: 64px;
 }
 
 div.link > * {
