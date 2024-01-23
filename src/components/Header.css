@@ -7,24 +7,6 @@ div.header {
     gap: 16px;
 }
 
-@media only screen
-and (max-width: 600px) {
-    div.header {
-        justify-content: center;
-    }
-
-    div.header div.title {
-        display: flex;
-        justify-content: center;
-        height: 48px;
-        font-size: 16pt;
-    }
-
-    div.header img.logo {
-        display: none;
-    }
-}
-
 div.header div.title {
     color: #004aad;
     white-space: nowrap;
@@ -38,7 +20,7 @@ div.header img.logo {
 div.link {
     display: flex;
     align-items: stretch;
-    height: 64px;
+    height: 80px;
 }
 
 div.link > * {
@@ -66,4 +48,26 @@ div.link > * {
 .link_inactive:hover {
     background-color: #00000011;
     cursor: pointer;
+}
+
+@media only screen
+and (max-width: 600px) {
+    div.header {
+        justify-content: center;
+    }
+
+    div.header div.title {
+        display: flex;
+        justify-content: center;
+        height: 48px;
+        font-size: 16pt;
+    }
+
+    div.header img.logo {
+        display: none;
+    }
+
+    div.link {
+        height: 64px;
+    }
 }
