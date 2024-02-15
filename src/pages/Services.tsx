@@ -58,6 +58,26 @@ function Services() {
                     </div>
                 </div>
                 <div className='section'>
+                    <img id='soulbeat' src='images/pages/services/soulbeat.png' alt='SoulBeat'/>
+                    <div className='title'>SoulBeat</div>
+                    <div className='paragraph' style={{ fontSize: '14pt' }}>For teenage males</div>
+                    <div className='paragraph'>This group will aim to increase the coping and emotional regulation
+                        skills as well as improve mood for teen males. Using evidence-based psychoeducational techniques
+                        within therapeutic drumming, participants will develop a sense of holistic wellness.
+                    </div>
+                    <div className='paragraph'>
+                        <div>Tuesday's, 7:30pm - 8:30pm</div>
+                        <div>DATES:</div>
+                        <div className='indent'>
+                            <div>3/12/2024</div>
+                            <div>3/19/2024</div>
+                            <div>3/26/2024</div>
+                            <div>4/2/2024</div>
+                        </div>
+                        <div>FEE: $200</div>
+                    </div>
+                </div>
+                <div className='section'>
                     <img id='rhythmic_resilience' src='images/pages/services/rhythmic_resilience.png'
                          alt='Rhythmic Resilience'/>
                     <div className='title'>Rhythmic Resilience</div>
@@ -78,26 +98,6 @@ function Services() {
                             <div>4/2/2024, 4/4/2024</div>
                         </div>
                         <div>FEE: $350</div>
-                    </div>
-                </div>
-                <div className='section'>
-                    <img id='soulbeat' src='images/pages/services/soulbeat.png' alt='SoulBeat'/>
-                    <div className='title'>SoulBeat</div>
-                    <div className='paragraph' style={{ fontSize: '14pt' }}>For teenage males</div>
-                    <div className='paragraph'>This group will aim to increase the coping and emotional regulation
-                        skills as well as improve mood for teen males. Using evidence-based psychoeducational techniques
-                        within therapeutic drumming, participants will develop a sense of holistic wellness.
-                    </div>
-                    <div className='paragraph'>
-                        <div>Tuesday's, 7:30pm - 8:30pm</div>
-                        <div>DATES:</div>
-                        <div className='indent'>
-                            <div>3/12/2024</div>
-                            <div>3/19/2024</div>
-                            <div>3/26/2024</div>
-                            <div>4/2/2024</div>
-                        </div>
-                        <div>FEE: $200</div>
                     </div>
                 </div>
                 <SignUpForm/>
