@@ -49,32 +49,12 @@ function Services() {
                         <div>Mondays, 10:30am - 11:30am</div>
                         <div>DATES:</div>
                         <div className='indent'>
-                            <div>3/4/2024</div>
                             <div>3/11/2024</div>
                             <div>3/18/2024</div>
                             <div>3/25/2024</div>
+                            <div>4/1/2024</div>
                         </div>
                         <div>FEE: $200</div>
-                    </div>
-                </div>
-                <div className='section'>
-                    <img id='soulbeat' src='images/pages/services/soulbeat.png' alt='SoulBeat'/>
-                    <div className='title'>SoulBeat</div>
-                    <div className='paragraph' style={{ fontSize: '14pt' }}>For teenage males</div>
-                    <div className='paragraph'>This group will aim to increase the coping and emotional regulation
-                        skills as well as improve mood for teen males. Using evidence-based psychoeducational techniques
-                        within therapeutic drumming, participants will develop a sense of holistic wellness.
-                    </div>
-                    <div className='paragraph'>
-                        <div>Tuesday's & Thursday's, 9am - 10am</div>
-                        <div>DATES:</div>
-                        <div className='indent'>
-                            <div>3/5/2024, 3/7/2024</div>
-                            <div>3/12/2024, 3/14/2024</div>
-                            <div>3/19/2024, 3/21/2024</div>
-                            <div>3/26/2024, 3/28/2024</div>
-                        </div>
-                        <div>FEE: $350</div>
                     </div>
                 </div>
                 <div className='section'>
@@ -89,13 +69,33 @@ function Services() {
                         symptoms of Parkinson’s disease.
                     </div>
                     <div className='paragraph'>
-                        <div>Tuesday's, 7:30pm - 8:30pm</div>
-                        <div>DATES: </div>
+                        <div>Tuesday's & Thursday's, 9am - 10am</div>
+                        <div>DATES:</div>
                         <div className='indent'>
-                            <div>3/5/2024</div>
+                            <div>3/12/2024, 3/14/2024</div>
+                            <div>3/19/2024, 3/21/2024</div>
+                            <div>3/26/2024, 3/28/2024</div>
+                            <div>4/2/2024, 4/4/2024</div>
+                        </div>
+                        <div>FEE: $350</div>
+                    </div>
+                </div>
+                <div className='section'>
+                    <img id='soulbeat' src='images/pages/services/soulbeat.png' alt='SoulBeat'/>
+                    <div className='title'>SoulBeat</div>
+                    <div className='paragraph' style={{ fontSize: '14pt' }}>For teenage males</div>
+                    <div className='paragraph'>This group will aim to increase the coping and emotional regulation
+                        skills as well as improve mood for teen males. Using evidence-based psychoeducational techniques
+                        within therapeutic drumming, participants will develop a sense of holistic wellness.
+                    </div>
+                    <div className='paragraph'>
+                        <div>Tuesday's, 7:30pm - 8:30pm</div>
+                        <div>DATES:</div>
+                        <div className='indent'>
                             <div>3/12/2024</div>
                             <div>3/19/2024</div>
                             <div>3/26/2024</div>
+                            <div>4/2/2024</div>
                         </div>
                         <div>FEE: $200</div>
                     </div>
