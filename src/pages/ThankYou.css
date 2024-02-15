@@ -4,3 +4,7 @@
     align-items: center;
     flex-grow: 1;
 }
+
+.thank_you .main {
+    max-width: max-content;
+}
