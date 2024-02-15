@@ -1,7 +1,35 @@
+#compass_inc_logo {
+    width: 64px;
+    margin: 16px 0;
+    align-self: center;
+}
+
 div.paragraph {
     margin-bottom: 16px;
 }
 
-.services .info .paragraph {
-    margin-bottom: 8px;
+.image_section {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+
+    .section {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        .paragraph {
+            margin: 0;
+        }
+    }
+
+}
+
+#melody_makers, #soulbeat, #rhythmic_resilience {
+    width: 320px;
+}
+
+.indent {
+    display: inline-block;
+    margin-left: 4em;
 }
