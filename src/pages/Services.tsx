@@ -49,9 +49,9 @@ function Services() {
                         <div>Mondays, 10:30am - 11:30am</div>
                         <div>DATES:</div>
                         <div className='indent'>
+                            <div>3/4/2024</div>
                             <div>3/11/2024</div>
                             <div>3/18/2024</div>
-                            <div>3/25/2024</div>
                             <div>4/1/2024</div>
                         </div>
                         <div>FEE: $200</div>
@@ -69,9 +69,9 @@ function Services() {
                         <div>Tuesday's, 7:30pm - 8:30pm</div>
                         <div>DATES:</div>
                         <div className='indent'>
+                            <div>3/5/2024</div>
                             <div>3/12/2024</div>
                             <div>3/19/2024</div>
-                            <div>3/26/2024</div>
                             <div>4/2/2024</div>
                         </div>
                         <div>FEE: $200</div>
@@ -92,9 +92,9 @@ function Services() {
                         <div>Tuesday's & Thursday's, 9am - 10am</div>
                         <div>DATES:</div>
                         <div className='indent'>
+                            <div>3/5/2024, 3/7/2024</div>
                             <div>3/12/2024, 3/14/2024</div>
                             <div>3/19/2024, 3/21/2024</div>
-                            <div>3/26/2024, 3/28/2024</div>
                             <div>4/2/2024, 4/4/2024</div>
                         </div>
                         <div>FEE: $350</div>
