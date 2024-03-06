@@ -30,7 +30,7 @@ function Services() {
                     </div>
                 </div>
                 <div className='section'>
-                    <div className='title'>After Registration Opens</div>
+                    <div className='title'>Registration Open</div>
                     <div className='paragraph'>Group start dates will be announced when
                         enrollment is at capacity. You will be emailed and added to a wait-list once you have signed up
                         for a specific group.
