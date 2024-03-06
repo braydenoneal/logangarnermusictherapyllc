@@ -31,7 +31,7 @@ function Services() {
                 </div>
                 <div className='section'>
                     <div className='title'>After Registration Opens</div>
-                    <div className='paragraph' style={{ fontSize: '14pt' }}>Group start dates will be announced when
+                    <div className='paragraph'>Group start dates will be announced when
                         enrollment is at capacity. You will be emailed and added to a wait-list once you have signed up
                         for a specific group.
                     </div>
