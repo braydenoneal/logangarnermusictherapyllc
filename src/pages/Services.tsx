@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css'
 import './Services.css'
-import SignUpForm from '../components/SignUpForm';
+import SignUpForm from '../components/SignUpForm'
 
 function Services() {
     return (
@@ -17,7 +17,7 @@ function Services() {
                     <div className='paragraph phone'>Phone: 573-220-3406</div>
                 </div>
                 <div className='section center'>
-                    <div className='title'>March 2024 Music Therapy Groups</div>
+                    <div className='title'>Spring 2024 Music Therapy Groups</div>
                     <div className='paragraph' style={{ fontSize: '14pt' }}>LOCATION: Compass Inc.</div>
                     <div className='paragraph' style={{ fontSize: '14pt' }}>ADDRESS:</div>
                     <div className='image_section'>
@@ -30,8 +30,10 @@ function Services() {
                     </div>
                 </div>
                 <div className='section'>
-                    <div className='paragraph' style={{ fontSize: '14pt' }}>REGISTRATION NOW OPEN for the following
-                        groups:
+                    <div className='title'>After Registration Opens</div>
+                    <div className='paragraph' style={{ fontSize: '14pt' }}>Group start dates will be announced when
+                        enrollment is at capacity. You will be emailed and added to a wait-list once you have signed up
+                        for a specific group.
                     </div>
                 </div>
                 <div className='section'>
@@ -47,13 +49,13 @@ function Services() {
                         <div>Mondays, 9am - 10am</div>
                         <div>OR</div>
                         <div>Mondays, 10:30am - 11:30am</div>
-                        <div>DATES:</div>
-                        <div className='indent'>
-                            <div>3/4/2024</div>
-                            <div>3/11/2024</div>
-                            <div>3/18/2024</div>
-                            <div>4/1/2024</div>
-                        </div>
+                        {/*<div>DATES:</div>*/}
+                        {/*<div className='indent'>*/}
+                        {/*    <div>3/4/2024</div>*/}
+                        {/*    <div>3/11/2024</div>*/}
+                        {/*    <div>3/18/2024</div>*/}
+                        {/*    <div>4/1/2024</div>*/}
+                        {/*</div>*/}
                         <div>FEE: $200</div>
                     </div>
                 </div>
@@ -66,14 +68,14 @@ function Services() {
                         within therapeutic drumming, participants will develop a sense of holistic wellness.
                     </div>
                     <div className='paragraph'>
-                        <div>Tuesday's, 7:30pm - 8:30pm</div>
-                        <div>DATES:</div>
-                        <div className='indent'>
-                            <div>3/5/2024</div>
-                            <div>3/12/2024</div>
-                            <div>3/19/2024</div>
-                            <div>4/2/2024</div>
-                        </div>
+                        <div>Tuesdays, 7:30pm - 8:30pm</div>
+                        {/*<div>DATES:</div>*/}
+                        {/*<div className='indent'>*/}
+                        {/*    <div>3/5/2024</div>*/}
+                        {/*    <div>3/12/2024</div>*/}
+                        {/*    <div>3/19/2024</div>*/}
+                        {/*    <div>4/2/2024</div>*/}
+                        {/*</div>*/}
                         <div>FEE: $200</div>
                     </div>
                 </div>
@@ -89,14 +91,14 @@ function Services() {
                         symptoms of Parkinson’s disease.
                     </div>
                     <div className='paragraph'>
-                        <div>Tuesday's & Thursday's, 9am - 10am</div>
-                        <div>DATES:</div>
-                        <div className='indent'>
-                            <div>3/5/2024, 3/7/2024</div>
-                            <div>3/12/2024, 3/14/2024</div>
-                            <div>3/19/2024, 3/21/2024</div>
-                            <div>4/2/2024, 4/4/2024</div>
-                        </div>
+                        <div>Tuesdays & Thursdays, 9am - 10am</div>
+                        {/*<div>DATES:</div>*/}
+                        {/*<div className='indent'>*/}
+                        {/*    <div>3/5/2024, 3/7/2024</div>*/}
+                        {/*    <div>3/12/2024, 3/14/2024</div>*/}
+                        {/*    <div>3/19/2024, 3/21/2024</div>*/}
+                        {/*    <div>4/2/2024, 4/4/2024</div>*/}
+                        {/*</div>*/}
                         <div>FEE: $350</div>
                     </div>
                 </div>
