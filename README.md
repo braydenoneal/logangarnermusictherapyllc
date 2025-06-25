@@ -2,7 +2,7 @@
 
 This repository contains the source files for the Garner Music Therapy LLC website.
 
-Current url: [https://garner-music-therapy-llc.web.app](https://garner-music-therapy-llc.web.app)
+URL: [https://www.garnermusictherapyllc.com](https://www.garnermusictherapyllc.com)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
